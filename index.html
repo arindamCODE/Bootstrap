@@ -178,20 +178,41 @@
 					</div>
 				</div>
 			</div>
-			<div class="carousel slide" id="myCarousel">
-				<ol class="carousel-indicators">
-					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
-					<li data-slide-to="1" data-target="#myCarousel"></li>
-					<li data-slide-to="2" data-target="#myCarousel"></li>
-				</ol>
-				<div class="carousel-inner">
-					<div class="item active" id="slide1"></div>
-					<div class="item" id="slide2"></div>
-					<div class="item" id="slide3"></div>
+			<div class="container">
+  				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    
+    				<ol class="carousel-indicators">
+      				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      				<li data-target="#myCarousel" data-slide-to="1"></li>
+      				<li data-target="#myCarousel" data-slide-to="2"></li>
+    				</ol>
 
-				</div>
-				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
-				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+    
+    				<div class="carousel-inner">
+
+      					<div class="item active">
+        					<img src="images/cgi1.jpg" alt="Los Angeles" style="width:100%;">
+        				</div>
+      				
+						 <div class="item">
+        					<img src="images/cgi2.jpg" alt="Chicago" style="width:100%;">
+          				</div>
+    
+      					<div class="item">
+        					<img src="images/cgi3.jpg" alt="New York" style="width:100%;">
+        
+      					</div>
+  
+    				</div>
+
+    
+    				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      				<span class="glyphicon glyphicon-chevron-left"></span>
+    				</a>
+    				<a class="right carousel-control" href="#myCarousel" data-slide="next">
+      				<span class="glyphicon glyphicon-chevron-right"></span>
+    				</a>
+  				</div>
 			</div>
 			<hr>
 			<div class="row" id="bigCallout">
@@ -201,8 +222,8 @@
 							<span class="glyphicon glyphicon-phone"></span> Give us a call
 						</a>
 					</div>
-				<div class="well">
-					<div class="header">
+				<div class="panel">
+					<div class="panel-heading">
 						<h1>
 							<strong> The Legacy </strong> <small>from then to the future</small>
 						</h1>
