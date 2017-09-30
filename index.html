@@ -191,15 +191,15 @@
     				<div class="carousel-inner">
 
       					<div class="item active">
-        					<img src="images/cgi1.jpg" alt="Los Angeles" style="width:100%;">
+        					<img src="images/cgi1.jpg" alt="Cyber-Value Connection" style="width:100%;">
         				</div>
       				
 						 <div class="item">
-        					<img src="images/cgi2.jpg" alt="Chicago" style="width:100%;">
+        					<img src="images/cgi2.jpg" alt="Uncovering Trends in Payments" style="width:100%;">
           				</div>
     
       					<div class="item">
-        					<img src="images/cgi3.jpg" alt="New York" style="width:100%;">
+        					<img src="images/cgi3.jpg" alt="Join CGI" style="width:100%;">
         
       					</div>
   
@@ -252,7 +252,7 @@
 								<strong> Founder of CGI </strong>
 							</h3>
 						</div>
-						<img src="images/found.jpg" alt="Founder of CGI" class="img-circle">
+						<img src="images/found.jpg" alt="Founder of CGI" class="img-fluid img-circle">
 						<p>
 							<strong> Serge Godin </strong>
 						</p>
@@ -269,7 +269,7 @@
 								<strong> Co-Founder of CGI </strong>
  							</h3>
 						</div>
-						<img src="images/cofound.jpg" alt="Co-Founder of CGI" class="img-circle">
+						<img src="images/cofound.jpg" alt="Co-Founder of CGI" class="img-fluid img-circle">
 						<p>
 							<strong> André Imbeau </strong>
 						</p>
@@ -348,6 +348,70 @@
 			</div>
 		</div>
 		<hr>
+
+		<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal">
+			<span class="glyphicon glyphicon-hand-up">Click here to Get Connected</span>
+		</a>
+		<div class="modal fade" id="myModal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Connect</h4>
+					</div>
+					<div class="modal-body">
+						<p>
+							<small class="text-muted">
+								Fill this and let us know
+							</small>
+						</p>
+
+						<form name="myForm" class="form-horizontal" onsubmit="return(validate())">
+							<div class="form-group">
+								<label class="col-lg-2 control-label" for="inputName">
+									Name
+								</label>
+								<div class="col-lg-10">
+									<input class="form-control" id="inputName" placeholder="Name" type="text">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-lg-2 control-label" for="inputEmail">
+									Email
+								</label>
+								<div class="col-lg-10">
+									<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-lg-2 control-label" for="inputZipcode">
+									Zipcode
+								</label>
+								<div class="col-lg-10">
+									<input class="form-control" id="inputZipcode" placeholder="Zipcode" type="zipcode">
+									<button class="btn btn-success pull-right" type="submit">
+										Send
+									</button>
+								</div>
+							</div>
+
+						</form>
+
+					</div>
+
+					<div class="modal-footer">
+							<button class="btn btn-default" data-dismiss="modal" type="button">
+								Close
+							</button>
+							<button class="btn btn-primary" type="button">Save Changes</button>
+						</div>
+				</div>
+			</div>
+		</div>
+
+
 		<div class="row" id="moreCourses">
 			<div class="panel">
 				<div class="panel-heading">
